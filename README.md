@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
 dasdasdas<br/>
-[a relative link](_posts/Wolfenstein_3D.md)
+[a relative link](https://andi-carretero.github.io/Wolfenstein_page/)
 
 You can use the [editor on GitHub](https://github.com/andi-carretero/andi-carretero.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
