@@ -5,4 +5,7 @@ url: https://andi-carretero.github.io
 description: Recopilacion y muestra de todos los proyectos personales realizados
 author: https://github.com/andi-carretero/
 
-theme: jekyll-theme-cayman
+# Build settings
+markdown: kramdown
+permalink: pretty
+#theme: jekyll-theme-cayman
