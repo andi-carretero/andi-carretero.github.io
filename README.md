@@ -5,7 +5,7 @@ dasdasdas<br/>
 
 dasdasdas<br/>
 
-<img src="_data/wolfenstein.jpg" alt="hi" class="inline"/>
+<img src="https://github.com/andi-carretero/andi-carretero.github.io/blob/main/_data/wolfenstein.jpg" alt="hi" class="inline"/>
 
 You can use the [editor on GitHub](https://github.com/andi-carretero/andi-carretero.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
