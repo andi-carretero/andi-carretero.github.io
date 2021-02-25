@@ -15,3 +15,21 @@ h6 {
 	background-image: url(https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg);
 	background-repeat: no-repeat;
 }
+
+	#top,
+	#bottom {
+		position: fixed;
+		left: 0;
+		right: 0;
+		height: 50%;
+	}
+	
+	#top {
+		top: 0;
+		background-color: orange;
+	}
+	
+	#bottom {
+		bottom: 0;
+		background-color: green;
+	}
