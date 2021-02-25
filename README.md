@@ -1,57 +1,12 @@
 ## Welcome to GitHub Pages
 
 
-boton chico<br/>
+boton chico ahora seee<br/>
 
 <button name="wolfensteinButton" onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';">
+	style="height:20px;width=20px"
 	<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg">
 </button>
-
-datooss<br/>
-
-#wolfensteinButton {
-  height: 51px;
-  width: 285px;
-  margin: auto;
-  margin-bottom: 5px;
-}
-
-
-
-<button name="button" onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';">
-	<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg">
-</button>
-
-imagen html<br/>
-
-#name {
-  background-image: url(https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg);
-  height: 51px;
-  width: 285px;
-  margin: auto;
-  margin-bottom: 5px;
-}
-
-#name:hover {
-  background-image: url(https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg);
-  height: 51px;
-  width: 285px;
-  margin: auto;
-  margin-bottom: 5px;
-  cursor: pointer;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-}
-
-#name a {
-    border:solid 1px red;
-    background-color: orange;
-    z-index: 999;
-}
-
-<div id="name"><a href="https://andi-carretero.github.io/Wolfenstein_page/"></a></div>
 
 You can use the [editor on GitHub](https://github.com/andi-carretero/andi-carretero.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
