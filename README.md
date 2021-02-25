@@ -1,11 +1,16 @@
 ## Welcome to GitHub Pages
 
 dasdasdas<br/>
-[a relative link](https://andi-carretero.github.io/Wolfenstein_page/)
+#[a relative link](https://andi-carretero.github.io/Wolfenstein_page/)
 
 dasdasdas<br/>
 
-<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg" alt="raw" class="inline"/>
+#<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg" alt="raw" class="inline"/>
+
+ambas<br/>
+
+[a relative link](https://andi-carretero.github.io/Wolfenstein_page/) and <img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg" alt="raw" class="inline"/>
+
 
 You can use the [editor on GitHub](https://github.com/andi-carretero/andi-carretero.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
