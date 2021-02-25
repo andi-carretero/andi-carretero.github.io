@@ -3,8 +3,10 @@
 
 boton chico ahora seee<br/>
 
-<button name="wolfensteinButton" onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';">
+<button name="wolfensteinButton" 
+	onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';"
 	style="height:20px;width=20px"
+>
 	<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg">
 </button>
 
