@@ -1,22 +1,7 @@
-## Welcome to GitHub Pages
 
-dasdasdas<br/>
-[a relative link](https://andi-carretero.github.io/Wolfenstein_page/)
-
-dasdasdas<br/>
-
-<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg" alt="raw" class="inline"/>
-
-imagen mas chica<br/>
-
- <img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg" alt="Wolfenstein" width="500" height="600"> 
-
-boton re cheto google<br/>
-
-<button name="button" onclick="http://www.google.com">Click me</button>
-
-
-<button name="button" onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';"><img src="http://thinkingstiff.com/images/matt.jpg">Click me</button>
+<button name="button" onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';">
+	<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg">
+</button>
 
 imagen html<br/>
 
