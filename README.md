@@ -1,12 +1,11 @@
 ## Welcome to GitHub Pages
 
 
-boton chico ahora seee<br/>
+boton cambiado el orden<br/>
 
 <button name="wolfensteinButton" 
-	onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';"
 	style="height:20px;width=20px"
->
+	onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';">
 	<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg">
 </button>
 
