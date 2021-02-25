@@ -16,7 +16,7 @@ boton re cheto google<br/>
 <button name="button" onclick="http://www.google.com">Click me</button>
 
 
-<button name="button" onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';">Click me</button>
+<button name="button" onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';"><img src="http://thinkingstiff.com/images/matt.jpg">Click me</button>
 
 imagen html<br/>
 
