@@ -3,6 +3,10 @@
 dasdasdas<br/>
 [a relative link](https://andi-carretero.github.io/Wolfenstein_page/)
 
+dasdasdas<br/>
+
+<img src="_data/wolfenstein.jpg" alt="hi" class="inline"/>
+
 You can use the [editor on GitHub](https://github.com/andi-carretero/andi-carretero.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
