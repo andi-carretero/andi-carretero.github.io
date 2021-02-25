@@ -7,12 +7,13 @@ boton chico<br/>
 	<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg">
 </button>
 
-.wolfensteinButton{
+datooss<br/>
 
-height: 250px;
-
-width: 250px;
-
+#wolfensteinButton {
+  height: 51px;
+  width: 285px;
+  margin: auto;
+  margin-bottom: 5px;
 }
 
 
