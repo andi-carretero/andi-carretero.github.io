@@ -11,9 +11,9 @@ imagen mas chica<br/>
 
  <img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg" alt="Wolfenstein" width="500" height="600"> 
 
-boton cheto google<br/>
+boton re cheto google<br/>
 
-{% include button.html url="http://www.google.com" %}
+<button name="button" onclick="http://www.google.com">Click me</button>
 
 imagen html<br/>
 
