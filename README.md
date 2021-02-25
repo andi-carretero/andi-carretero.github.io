@@ -15,6 +15,9 @@ boton re cheto google<br/>
 
 <button name="button" onclick="http://www.google.com">Click me</button>
 
+
+<button name="button" onclick="location.href='pageurl.html';">Click me</button>
+
 imagen html<br/>
 
 #name {
