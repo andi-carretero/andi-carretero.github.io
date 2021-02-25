@@ -1,10 +1,8 @@
-<link type="text/css" rel="stylesheet" href="main.css" />
+body {
+  background-color: lightblue;
+}
 
-.wolfensteinButton {
-  display: inline-block;
-  padding-top: 50%;
-  width: 100%;
-  background: url('https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg');
-  background-size: 100% 100%;
-  position: relative;
+h6 {
+  color: navy;
+  margin-left: 20px;
 }
