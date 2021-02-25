@@ -1,19 +1,18 @@
 ## Welcome to GitHub Pages
 
 
-boton cambiado el orden<br/>
-
+Boton clickeable<br/>
 <button name="wolfensteinButton" 
 	style="height:20px;width=20px"
 	onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';">
 	<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg">
 </button>
 
-boton sin nada<br/>
-	<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg"
-	style="height:20px;width=20px"
-	onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';">
-	</img>
+Imagen clickeable<br/>
+<img src="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg"
+	style="height:200px;width=200px"
+	onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';"
+>
 
 You can use the [editor on GitHub](https://github.com/andi-carretero/andi-carretero.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
