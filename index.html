@@ -1,24 +1,53 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="https://andi-carretero.github.io/main.css">
-
-
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="preload" as="image" href="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein_on_mouse_over.gif" media="(max-width: 600px)">
 
 <html>
+	<head>
+		<script type="text/javascript">
+			function setNewImage(document){
+				document.src = document.getAttribute('on_mouse_image');
+			}
+			function setOldImage(document){
+				document.src = document.getAttribute('default_image');
+			}
+
+		</script>
+	</head>
+
     <body>
-    
-    
-        <h1>Proyectos</h1>
-        <p>Recopilacion y muestra de todos los proyectos personales realizados</p>
+    	<h1><center>Proyectos</center></h1>
+        <h2><center>Recopilacion y muestra de todos los proyectos personales realizados</center></h2>
 
-		Wolfenstein 3D online<br/>
+   		<div id="proyects">
+   			<div id="proyect_wolfenstein">
+				<h4><center>Wolfenstein 3D online</center></h4>
 
-		<button id="wolfensteinButton" 
-			style="height:200px;width=200px"
-			onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';">
-		</button>
+				<img id="Wolfenstein_button" 
+					onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';"
+					default_image = "https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg"
+					on_mouse_image='https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein_on_mouse_over.gif'
+					onmouseover = "setNewImage(this)"
+					onmouseout = "setOldImage(this)"
+					src = "https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg";
+					width = "300"
+					height = "300" />
+			</div>
 
+   			<div id= "proyect_automatic_facturer">
+				<h4><center>Facturador automatico AFIP</center></h4>
 
-        <h6>Copyright MIT Licence 2018</h6>
+				<img id="Wolfenstein_button" 
+					onclick="location.href='https://andi-carretero.github.io/Wolfenstein_page/';"
+					default_image = "https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg"
+					on_mouse_image='https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein_on_mouse_over.gif'
+					onmouseover = "setNewImage(this)"
+					onmouseout = "setOldImage(this)"
+					src = "https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein.jpg";
+					width = "300"
+					height = "300" />
+			</div>
+		</div>
     </body>
 </html>
 
