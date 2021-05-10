@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: #222;
+}
+/*
+https://www.youtube.com/watch?v=wVSjKfLKvbk
+https://www.youtube.com/watch?v=ozE-YFiaVPU
+
+El que use al final
+https://www.tutorialrepublic.com/faq/show-hide-dropdown-menu-on-mouse-hover-using-css.php
+*/
+
+ul {
+    padding: 0;
+    list-style: none;
+    /*background: #f2f2f2;*/
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,1));
+    text-align: right;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+}
+ul li a {
+    display: block;
+    padding: 8px 25px;
+    color: #aaaaaa; /*antes 333*/
+    text-decoration: none;
+}
+ul li a:hover {
+    /*color: #fff;
+    background: #939393;*/
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.1));
+    
+}
+
+
+ul li ul.dropdown {
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown {
+    display: block; /* Display the dropdown */
+}
+ul li ul.dropdown li {
+    display: block;
+}
+
+
+/*Menu de proyectos*/
+
+.project{
+    background: #fff;
+}
+
+
+.project>a{
+    color:#333;
+}
+
+.project>a:hover{
+    color: black;
+    background: #625e5e;
+}

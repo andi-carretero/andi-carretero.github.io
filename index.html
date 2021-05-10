@@ -1,71 +1,38 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="main.css">
-<link rel="preload" as="image" href="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein/wolfenstein_on_mouse_over.gif" media="(max-width: 600px)">
-<link rel="preload" as="image" href="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/online_facturer/facturador_on_mouse.gif" media="(max-width: 600px)">
-<link rel="preload" as="image" href="https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/sudoku/sudoku_on_mouse.gif" media="(max-width: 600px)">
-<html>
-	<head>
-		<script type="text/javascript">
-			function setNewImage(document){
-				document.src = document.getAttribute('on_mouse_image');
-			}
-			function setOldImage(document){
-				document.src = document.getAttribute('default_image');
-			}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./menu_styles.css">
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="projects.html">Proyectos ▾</a>
+            <ul class="dropdown">
+                <li class="project"><a href="https://github.com/ramaMont/taller-tp-grupal" target="_blank">Wolfenstein</a></li>
+                <li class="project"><a href="https://andi-carretero.github.io/facturador_afip/" target="_blank">Facturador</a></li>
+                <li class="project"><a href="https://github.com/andi-carretero/sudoku_solver" target="_blank">Sudoku</a></li>
+            </ul>
+        </li>
+        <li><a href="about.html">Curriculum</a></li>
+    </ul>
+    <div class="content">
+        <h1 class="name">Andres Carretero</h1>
+        <h3 class="info">Desarrollador de software</h3>
+        <br><br><br>
+        <a class="linkedin" href="https://www.linkedin.com/in/andres-carretero-526442210/" target= “_blank”>
+            <img class="linkedin" src="https://embajadoresalumni.udd.cl/files/2018/04/linkedin.png" alt="">
+        </a>
 
-		</script>
-	</head>
+        <br>
+        <a href="projects.html" class="button1">Proyectos </a>
+    </div>
+        
 
-    <body>
-    	<h1><center>Proyectos</center></h1>
-        <h2><center>Recopilacion y muestra de todos los proyectos personales realizados</center></h2>
-
-   		<div id="proyects">
-   			<div id="proyect_wolfenstein">
-				<h4><center>Wolfenstein 3D online</center></h4>
-
-				<img id="Wolfenstein_button" 
-					onclick="location.href='https://ramamont.github.io/taller-tp-grupal/';"
-					default_image = "https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein/wolfenstein.jpg"
-					on_mouse_image='https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein/wolfenstein_on_mouse_over.gif'
-					onmouseover = "setNewImage(this)"
-					onmouseout = "setOldImage(this)"
-					src = "https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/wolfenstein/wolfenstein.jpg";
-					width = "300"
-					height = "300" />
-			</div>
-
-   			<div id= "proyect_automatic_facturer">
-				<h4><center>Facturador automatico AFIP</center></h4>
-
-				<img id="Afip_button" 
-					onclick="location.href='https://andi-carretero.github.io/facturador_afip/';"
-					default_image = "https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/online_facturer/facturador.png"
-					on_mouse_image='https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/online_facturer/facturador_on_mouse.gif'
-					onmouseover = "setNewImage(this)"
-					onmouseout = "setOldImage(this)"
-					src = "https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/online_facturer/facturador.png";
-					width = "300"
-					height = "300" />
-			</div>
-
-
-   			<div id= "proyect_sudoku_solver">
-				<h4><center>Sudoku</center></h4>
-
-				<img id="Sudoku_button" 
-					onclick="location.href='https://andi-carretero.github.io/sudoku_solver/';"
-					default_image = "https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/sudoku/sudoku_main.png"
-					on_mouse_image='https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/sudoku/sudoku_on_mouse.gif'
-					onmouseover = "setNewImage(this)"
-					onmouseout = "setOldImage(this)"
-					src = "https://raw.githubusercontent.com/andi-carretero/andi-carretero.github.io/main/_data/sudoku/sudoku_main.png";
-					width = "300"
-					height = "300" />
-			</div>
-
-		</div>
-		<a href="about.html" target="_blank">Link a about</a>
-    </body>
+</body>
 </html>
-
